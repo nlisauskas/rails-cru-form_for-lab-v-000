@@ -23,6 +23,5 @@ class ArtistsController < ApplicationController
 
   def artist_params(*args)
   end
-  
 
 end
