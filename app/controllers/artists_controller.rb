@@ -14,6 +14,7 @@ class ArtistsController < ApplicationController
   end
 
   def show
+    @artist = Artist.find_by(:id)
   end
 
   def edit
