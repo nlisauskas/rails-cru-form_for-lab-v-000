@@ -4,6 +4,7 @@ class ArtistsController < ApplicationController
   end
 
   def new
+    @artist = Artist.new
   end
 
   def create
@@ -17,5 +18,11 @@ class ArtistsController < ApplicationController
 
   def update
   end
+
+  private
+
+  def artist_params(*args)
+  end
   
+
 end
